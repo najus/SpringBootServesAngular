@@ -12,6 +12,6 @@ public class MainController {
 
     @RequestMapping(value="/",method = RequestMethod.GET)
     public String homepage(){
-        return "index";
+        return "index.html";
     }
 }
